@@ -10,27 +10,27 @@
         <module name="gmall-common-util" />
         <module name="gmall-cart-web" />
         <module name="gmall-bean" />
-        <module name="gmall-web-util" />
         <module name="gmall-manage-service" />
+        <module name="gmall-user-manage" />
         <module name="gmall-interface" />
         <module name="gmall-manage-web" />
-        <module name="gmall-user-manage" />
+        <module name="gmall-web-util" />
         <module name="gmall-service-util" />
         <module name="gmall-order-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gmall-bean" target="1.6" />
+      <module name="gmall-bean" target="1.8" />
       <module name="gmall-cart-web" target="1.8" />
-      <module name="gmall-common-util" target="1.6" />
-      <module name="gmall-interface" target="1.6" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-interface" target="1.8" />
       <module name="gmall-manage-service" target="1.8" />
       <module name="gmall-manage-web" target="1.8" />
       <module name="gmall-order-web" target="1.6" />
-      <module name="gmall-parent" target="1.6" />
-      <module name="gmall-service-util" target="1.6" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-service-util" target="1.8" />
       <module name="gmall-user-manage" target="1.6" />
-      <module name="gmall-web-util" target="1.6" />
+      <module name="gmall-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
