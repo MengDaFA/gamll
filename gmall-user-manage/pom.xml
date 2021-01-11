@@ -10,9 +10,9 @@
 		<relativePath>../gmall-parent/pom.xml</relativePath>
 	</parent>
 	<groupId>com.atguigu.gmall1205</groupId>
-	<artifactId>gmall-manage-web</artifactId>
+	<artifactId>gmall-user-manage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gmall-manage-web</name>
+	<name>gmall-user-manage</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -20,26 +20,20 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<groupId>com.atguigu.gmall1205</groupId>
+			<artifactId>gmall-service-util</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
+
+
 		<dependency>
 			<groupId>com.atguigu.gmall1205</groupId>
 			<artifactId>gmall-interface</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>com.atguigu.gmall1205</groupId>
-			<artifactId>gmall-web-util</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
