@@ -8,13 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gmall-common-util" />
-        <module name="gmall-cart-web" />
         <module name="gmall-bean" />
+        <module name="gmall-web-util" />
         <module name="gmall-manage-service" />
-        <module name="gmall-user-manage" />
         <module name="gmall-interface" />
         <module name="gmall-manage-web" />
-        <module name="gmall-web-util" />
+        <module name="gmall-user-manage" />
         <module name="gmall-service-util" />
         <module name="gmall-order-web" />
       </profile>
